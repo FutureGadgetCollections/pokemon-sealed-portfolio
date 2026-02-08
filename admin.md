@@ -15,6 +15,11 @@ description: Manage your sealed portfolio data
     <span class="stat-value" style="font-size: 1.25rem;">Published Sheet</span>
     <small style="color: var(--color-gray-500);">Share this link with others</small>
   </a>
+  <a href="{{ site.sheets.edit }}" target="_blank" class="stat-card admin-link">
+    <span class="stat-label">Admin</span>
+    <span class="stat-value" style="font-size: 1.25rem;">Edit Sheet</span>
+    <small style="color: var(--color-gray-500);">Requires editor access</small>
+  </a>
 </div>
 
 <div class="card" style="margin-bottom: 1.5rem;">
